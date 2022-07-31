@@ -11,21 +11,23 @@ module.exports = {
     path: path.join(__dirname, "./dist")
   },
   module: {
-    rules: [{
-      test: /\.js$/,
-      use: ['babel-loader'],
-    }, {
-      test: /\.less$/i,
-      include: {
-        and: [path.join(__dirname, "./src/")]
-      },
-      use: [
-        "style-loader",
-        "css-loader",
-        {
-          loader: "less-loader"
-        }
-      ]
-    }]
+    rules: [
+      {
+        test: /\.js$/,
+        use: ['babel-loader'],
+      }, {
+        test: /\.less$/i,
+        include: {
+          and: [path.join(__dirname, "./src/")]
+        },
+        use: [
+          "style-loader",
+          "css-loader",
+          {
+            loader: "less-loader"
+          }
+        ]
+      }
+    ]
   }
 }
