@@ -1,1 +1,0 @@
-(()=>{"use strict";console.log("I'm just a JavaScript file"),console.log(780)})();
