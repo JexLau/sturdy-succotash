@@ -1,0 +1,30 @@
+{
+  "name": "1-simple",
+  "version": "0.0.0",
+  "description": "A simple webpack config",
+  "keywords": [
+    "webpack"
+  ],
+  "author": "jexlau <361684727@qq.com>",
+  "homepage": "https://github.com/JexLau/sturdy-succotash#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JexLau/sturdy-succotash.git"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/JexLau/sturdy-succotash/issues"
+  }
+}
