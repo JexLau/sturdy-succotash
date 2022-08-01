@@ -1,0 +1,34 @@
+{
+  "name": "2-babel",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "babel-loader": "^8.2.5"
+  },
+  "description": "A webpack simble example with babel ",
+  "keywords": [
+    "webpack"
+  ],
+  "author": "jexlau <361684727@qq.com>",
+  "homepage": "https://github.com/JexLau/sturdy-succotash#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JexLau/sturdy-succotash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JexLau/sturdy-succotash/issues"
+  }
+}
